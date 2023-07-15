@@ -7,7 +7,7 @@ interface Props {
 
 const button = ({ children, onClick }: Props) => {
   return (
-    <button className="btn btn-dark" onClick={onClick}>
+    <button className="btn btn-dark" onClick={onClick} style={{margin:"10px",width:"200px",height:"70px",borderRadius:"30px"}}>
       {children}
     </button>
   );
